@@ -1,9 +1,8 @@
 // ignore_for_file: use_key_in_widget_constructors
 
 import 'package:flutter/material.dart';
-import 'package:platzi_flutter/review.dart';
-
-import 'floating_action_button_white.dart';
+import 'package:platzi_flutter/Place/ui/widgets/review.dart';
+import 'package:platzi_flutter/User/ui/widgets/floating_action_button_white.dart';
 
 class ProfileAppbar extends StatelessWidget{
   @override

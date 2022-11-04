@@ -1,9 +1,9 @@
 // ignore_for_file: use_key_in_widget_constructors
 
 import 'package:flutter/material.dart';
-import 'package:platzi_flutter/review_list.dart';
+import '../widgets/review_list.dart';
 
-import 'description_place.dart';
+import '../widgets/description_place.dart';
 import 'header_appbar.dart';
 
 class HomeTrips extends StatelessWidget {

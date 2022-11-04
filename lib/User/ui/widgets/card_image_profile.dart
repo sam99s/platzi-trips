@@ -1,7 +1,7 @@
 // ignore_for_file: must_be_immutable
 
 import 'package:flutter/material.dart';
-import 'floating_action_button_green.dart';
+import 'package:platzi_flutter/widgets/floating_action_button_green.dart';
 
 class CardImageProfile extends StatelessWidget {
   String pathImage;

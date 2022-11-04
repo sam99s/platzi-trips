@@ -1,7 +1,7 @@
 // ignore_for_file: must_be_immutable
 
 import 'package:flutter/material.dart';
-import 'button_purple.dart';
+import '../../../widgets/button_purple.dart';
 
 class DescritionPlace extends StatelessWidget {
   String namePlace;

@@ -1,9 +1,9 @@
 // ignore_for_file: use_key_in_widget_constructors
 
 import 'package:flutter/material.dart';
-import 'package:platzi_flutter/home_trips.dart';
-import 'package:platzi_flutter/profile_trips.dart';
-import 'package:platzi_flutter/search_trips.dart';
+import 'package:platzi_flutter/Place/ui/screens/home_trips.dart';
+import 'package:platzi_flutter/User/ui/screens/profile_trips.dart';
+import 'package:platzi_flutter/Place/ui/screens/search_trips.dart';
 
 class PlatziTrips extends StatefulWidget{
   @override

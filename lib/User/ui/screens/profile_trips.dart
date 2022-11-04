@@ -1,8 +1,8 @@
 // ignore_for_file: use_key_in_widget_constructors
 
 import 'package:flutter/material.dart';
-import 'package:platzi_flutter/card_image_profile_list.dart';
-import 'package:platzi_flutter/profile_header.dart';
+import 'package:platzi_flutter/User/ui/screens/profile_header.dart';
+import 'package:platzi_flutter/User/ui/widgets/card_image_profile_list.dart';
 
 class ProfileTrips extends StatelessWidget {
   @override
@@ -11,12 +11,14 @@ class ProfileTrips extends StatelessWidget {
       children: <Widget>[
         ListView(
           children: <Widget>[
-            SizedBox(height: 220.0),
-            CardImageProfileList()
+            SizedBox(height: sizedBoxHeight),
+            const CardImageProfileList()
           ],
         ),
         ProfileHeader()
       ],
     );
   }
+
+  final sizedBoxHeight = 220.0;
 }
